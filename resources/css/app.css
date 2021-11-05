@@ -1,0 +1,50 @@
+#example {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px;
+}
+
+#submitBtt {
+    display: flex;
+    justify-content: center;
+}
+
+.fields {
+    border: none;
+    box-shadow: 2px 2px 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btt {
+    margin: 5px;
+    font-size: 15px;
+}
+
+#dashboard {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
