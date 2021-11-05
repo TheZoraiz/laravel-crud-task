@@ -2,6 +2,12 @@
 
 Execute the following commands
 ```
+npm install
+```
+```
+composer install
+```
+```
 php artisan migrate
 ```
 ```
